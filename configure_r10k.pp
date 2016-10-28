@@ -14,7 +14,7 @@ class { 'r10k':
   version           => '2.4.3',
   sources           => {
     'puppet' => {
-      'remote'  => 'https://github.com/zwartw/puppet-repository.git',
+      'remote'  => 'https://github.com/zwartw/puppet_repository.git',
       'basedir' => "${::settings::confdir}/environments",
       'prefix'  => false,
     }
